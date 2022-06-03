@@ -3,30 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Order summary card</title>
 </head>
 <body>
-  <main>
-    <section>
+  <main class="container">
+    <section class="card-body">
       <header>
+        <img src="images/illustration-hero.svg" class="top-img" alt="cartooned picture of girl listening to music with headphones">
         <h1>Order Summary</h1>
       </header>
-      <p>
+      <p class="card-info">
         You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!
       </p>
 
-      <div>
-        <p>Annual Plan</p>
-        <p>$59.99/year</p>
+      <div class="payment-div">
+        <div><img src="images/icon-music.svg" class="music-icon" alt="music icon"></div>
+        <div>
+          <p class="annual">Annual Plan</p>
+          <p>$59.99/year</p>
+        </div>
         <aside><a href="#">Change</a></aside>
       </div>
       <div>
-        <a href="#">Proceed to Payment</a>
-        <a href="#">Cancel Order</a>
+        <div class="button-div">
+          <a href="#" class="button">Proceed to Payment</a>
+        </div>
+        <div class="cancel-div">
+        <a href="#" class="cancel">Cancel Order</a>
+        </div>
       </div>
     </section>
   </main>

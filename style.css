@@ -1,3 +1,105 @@
+body {
+    margin: auto;
+    background: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 80%);
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 18px;
+    font-weight: 600;
+    color:hsl(224, 23%, 55%);
+    font-family: Red Hat Display;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+aside {
+    position: relative;
+    top: 25px;
+    left: 70px;
+    /* float: right; */
+    font-size: 12px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.card-body {
+    /* padding: 20px; */
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+}
+
+.top-img {
+    width: 350px;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-info {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.payment-div {
+    display: flex;
+    border:  hsl(223, 47%, 65%);
+    border-radius: 10px;
+    margin: 20px 30px;
+    background-color: hsl(223, 47%, 95%);
+    font-size: 14px;
+    padding: 2px 20px;
+}
+.music-icon {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.annual {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    line-height: 0;
+    margin-top: 25px;
+}
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    border: 2px solid #1E1FCD;
+    border-radius: 10px;
+    padding: 7px 80px;
+    background-color: #1E1FCD;
+    box-shadow: 5px 10px 5px hsl(225, 100%, 90%),
+                5px 10px 5px hsl(225, 100%, 90%);
+
+    color: hsl(225, 100%, 98%);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    border: 2px solid hsl(223, 47%, 65%);
+    background-color: hsl(223, 47%, 65%);
+}
+
+.cancel-div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 10px;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
