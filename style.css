@@ -7,13 +7,13 @@ body {
     font-size: 18px;
     font-weight: 600;
     color:hsl(224, 23%, 55%);
-    font-family: Red Hat Display;
+    font-family: "Red Hat Display";
 }
 
 h1 {
     color: hsl(223, 47%, 23%);
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 1em;
+    font-weight: bolder;
     text-align: center;
 }
 aside {
@@ -24,11 +24,16 @@ aside {
     font-size: 12px;
 }
 
+a:hover {
+    color: hsl(244, 8%, 44%);
+}
+
 .container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     margin-top: 80px;
+    margin-bottom: 10px;
 }
 
 .card-body {
@@ -65,10 +70,11 @@ aside {
 }
 
 .annual {
-    font-weight: 900;
+    font-weight: bolder;
     color: hsl(223, 47%, 23%);
     line-height: 0;
     margin-top: 25px;
+
 }
 .button-div {
     display: flex;
