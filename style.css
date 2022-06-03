@@ -98,6 +98,7 @@ a:hover {
 .button:hover {
     border: 2px solid hsl(223, 47%, 65%);
     background-color: hsl(223, 47%, 65%);
+    color: white;
 }
 
 .cancel-div {
